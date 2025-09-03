@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+Drone TV
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Drone TV is a full-stack project built to showcase professional drone pilots and their portfolios. The platform allows users to list profiles, view portfolios, filter professionals, and connect with them.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+Frontend:
 
-### `npm start`
+Built with React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Portfolio templates (different layouts for professionals)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Search and filter by location, skills, and name
 
-### `npm test`
+Contact option for each profile
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Backend:
 
-### `npm run build`
+Node.js + Express server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+MongoDB database for storing professional details
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+REST API to handle profiles (GET, POST, PUT, DELETE)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Basic CRUD operations
 
-### `npm run eject`
+Extra Functionality:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Edit and Delete buttons are added (temporarily) as part of instructions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+These can be improved with better user roles & permissions in the future.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Frontend: React, Axios, React Router
 
-## Learn More
+Backend: Node.js, Express
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Database: MongoDB Atlas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Deployment: Vercel (Backend + Frontend)
 
-### Code Splitting
+Deployment Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Frontend (Vercel): https://drone-tv-frontend.vercel.app/
 
-### Analyzing the Bundle Size
+Backend API (Vercel): https://drone-tv-backend.vercel.app/api/professionals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Screenshots
 
-### Advanced Configuration
+Screenshots of the UI are available inside the /screenshots folder of the frontend repo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Notes
 
-### Deployment
+This project was built as a basic functional implementation to meet requirements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Future improvements can include authentication and  better UI.
